@@ -7,7 +7,6 @@ import { getPosts} from "./actions/posts";
 
 export default function App() {
   const dispach = useDispatch();
-
   useEffect(()=>{
     dispach(getPosts());
   },[dispach]);
