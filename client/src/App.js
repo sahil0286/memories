@@ -8,11 +8,11 @@ export default function App() {
   return (
     <>
     <Navbar/>
-    <div class="row">
-      <div class="col-7 border">
+    <div className="row">
+      <div className="col-7 border">
         <Posts/>
       </div>
-      <div class="col-5 border">
+      <div className="col-5 border">
         <Forms/>
       </div>
     </div>
